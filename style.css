@@ -588,6 +588,7 @@ html,body{
   }
 
   .mobill-menu{ 
+    position: fixed;
     background-color: rgb(54, 53, 53);
     padding-top: 0.3%;
     margin-top: 215%;
