@@ -588,7 +588,6 @@ html,body{
   }
 
   .mobill-menu{ 
-    position: fixed;
     background-color: rgb(54, 53, 53);
     padding-top: 0.3%;
     margin-top: 215%;
@@ -600,8 +599,8 @@ html,body{
   }
 
   .mobil-icon{
-    width: 9.3%;
-    padding-left: 5%;
+    width: 8%;
+    padding-left: 6.5%;
     margin-top: -8%;
   }
 
