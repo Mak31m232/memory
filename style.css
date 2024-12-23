@@ -33,7 +33,7 @@ html,body{
 }
 
 .header{
-    position: relative;
+    position: sticky;
     display: flex;
     align-items: center;
     height: 70px;
@@ -650,6 +650,7 @@ html,body{
   }
 
   .mobill-menu{
+    position: sticky;
     display: block;
   }
 
@@ -669,7 +670,7 @@ html,body{
     display: block;  
     background-color: rgb(54, 53, 53);
     margin-left: -50%;
-    margin-top: 18%;
+    margin-top: 13%;
     padding-right: 10%;
     width: 40%;
     height: 32%;
