@@ -716,7 +716,7 @@ html,body{
   }
 }
 
-@media(max-width:400px){
+@media(max-width:450px){
   .header{
     height: 8%;
   }
@@ -753,7 +753,7 @@ html,body{
   .mobill-menu{
     display: block;
     height: 10%;
-    margin-top: 197%;
+    margin-top: 220%;
   }
 
   .btn-setting{
@@ -783,7 +783,7 @@ html,body{
   }
 
   .title2{
-    margin-left: 30px;
+    margin-left: 20px;
     margin-top: 13px;
     font-family: roboto,sans-serif;
   }
