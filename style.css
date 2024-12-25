@@ -614,6 +614,7 @@ html,body{
 
   .menu-mobill{
     display: none;
+    width: 30%;
   }
 
 @media(max-width:775px){
@@ -700,6 +701,100 @@ html,body{
 
   .img-setting {
     width: 80%;
+  }
+
+  .registration{
+    display: none;
+  }
+
+  .shadow{
+    display: none;
+  }
+
+  .story-this{
+    display: none;
+  }
+}
+
+@media(max-width:400px){
+  .header{
+    height: 8%;
+  }
+
+  .logo{
+    margin-left: 180%;
+    width: 270%;
+  }
+
+  .form{
+    display: none;
+  }
+
+  .creation{
+    display: none;
+  }
+
+  .acaunt{
+    display: none;
+  }
+
+  .menu{
+    display: none;
+  }
+
+  .burger-btn{
+    width: 22%;
+  }
+
+  .menu-icon{
+    display: none;
+  }
+
+  .mobill-menu{
+    display: block;
+    height: 10%;
+    margin-top: 197%;
+  }
+
+  .btn-setting{
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    width: 10%;
+    margin-left: 85%;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+  }
+
+  .menu-mobill{
+    position: absolute;
+    display: block;  
+    background-color: rgb(54, 53, 53);
+    margin-left: -50%;
+    margin-top: 13%;
+    padding-right: 10%;
+    width: 30%;
+    height: 34%;
+    font-family: roboto,sans-serif;
+    border-radius: 0px 13px 13px 0px;
+    transition: .5s;
+    z-index: 2;
+  }
+
+  .title2{
+    margin-left: 30px;
+    margin-top: 13px;
+    font-family: roboto,sans-serif;
+  }
+
+  .menu-mobill li{
+    list-style-type: none;
+    font-size: 28px;
+  }
+
+  .img-setting {
+    width: 100%;
   }
 
   .registration{
