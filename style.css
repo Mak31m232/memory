@@ -837,7 +837,7 @@ html,body{
   }
 
   .logo{
-    margin-left: 180%;
+    margin-left: 240%;
     width: 270%;
   }
 
@@ -909,7 +909,7 @@ html,body{
   }
 
   .img-setting {
-    width: 100%;
+    width: 90%;
   }
 
   .registration{
@@ -931,7 +931,7 @@ html,body{
   }
 
   .logo{
-    margin-left: 180%;
+    margin-left: 220%;
     width: 270%;
   }
 
@@ -952,7 +952,7 @@ html,body{
   }
 
   .burger-btn{
-    width: 22%;
+    width: 18%;
   }
 
   .menu-icon{
@@ -1025,7 +1025,7 @@ html,body{
   }
 
   .logo{
-    margin-left: 180%;
+    margin-left: 210%;
     width: 270%;
   }
 
@@ -1046,7 +1046,7 @@ html,body{
   }
 
   .burger-btn{
-    width: 22%;
+    width: 18%;
   }
 
   .menu-icon{
@@ -1058,6 +1058,11 @@ html,body{
     display: block;
     height: 6%;
     margin-top: 280%;
+  }
+
+  .mobill-menu img{
+    width: 6.3%;
+    padding-right: -2%;
   }
 
   .btn-setting{
@@ -1079,7 +1084,7 @@ html,body{
     margin-top: 13%;
     padding-right: 10%;
     width: 40%;
-    height: 40%;
+    height: 30%;
     font-family: roboto,sans-serif;
     border-radius: 0px 13px 13px 0px;
     transition: .5s;
