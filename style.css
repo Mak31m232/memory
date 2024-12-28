@@ -175,10 +175,9 @@ html,body{
   font-family: helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
   background-color: rgb(57, 57, 57);
   width: 15%;
-  height: 10%;
+  height: 15%;
   margin-left: 80.5%;
   margin-top: 4.8%;
-  padding-top: 1%;
   border-radius: 13px; 
   font-size: 17.5px;
   display: none;
@@ -190,6 +189,10 @@ html,body{
   animation-fill-mode: forwards;
   animation-delay: 0s;
   z-index: 3;
+}
+
+.add-div a{
+  padding-top: 3%;
 }
 
 .menu-user {
@@ -616,6 +619,118 @@ html,body{
     display: none;
     width: 30%;
   }
+  
+  @media(max-width:1280px){
+    .logo{
+      width: 75%;
+      margin-left: 10%;
+    }
+  
+    .burger-img{
+      width: 50%;
+      margin-left: 10%;
+    }
+  
+    .menu{
+      width: 18%;
+      height: 50%;
+    }
+  
+    .menu-icon{
+      margin-top: 5%;
+      height: 35%;
+    }
+  
+    .form{
+      margin-left: -2%;
+    }
+  
+    .creation{
+      margin-left: -57%;
+    }
+  
+    .creation img{
+      width: 170%;
+    }
+  
+    .menu-user{
+      width: 17%;
+      margin-left: 83%;
+      margin-top: 5%;
+    }
+  
+    .add-div{
+      width: 18%;
+    }
+  }
+
+  @media(max-width:1024px){
+    .logo{
+      width: 85%;
+      margin-left: 15%;
+    }
+  
+    .burger-img{
+      width: 60%;
+      margin-left: 15%;
+    }
+  
+    .form{
+      margin-left: 2%;
+      display: flex;
+      align-items: center;
+  }
+  
+  .input{
+    width: 500px;
+  }
+  
+  .creation{
+    margin-left: -58.5%;
+  }
+  
+  .creation img{
+    width: 200%;
+  }
+  
+  .acaunt{
+    width: 36px;
+    height: 35px;
+  }
+  
+  .menu-user{
+    width: 20%;
+    margin-left: 80%;
+    margin-top: 7%;
+  }
+  
+  .menu-icon{
+    height: 35%;
+    margin-top: 6%;
+  }
+  
+  #glav-icon2{
+    width: 70%;
+  }
+  
+  .menu-icon img{
+    width: 80%;
+  }
+  
+  .add-div{
+    width: 20%;
+    margin-left: 75%;
+    margin-top: 7%;
+  }
+  
+  .menu{
+    width: 21%;
+  }
+  
+  .menu li{
+    white-space: nowrap;
+  }
+}
 
 @media(max-width:775px){
   .header{

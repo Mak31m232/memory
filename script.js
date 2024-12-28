@@ -9,7 +9,7 @@ function menu() {
         Mobillmenu.style.marginLeft="0%"
         registration.style.marginTop="-28%"
         menuicon.style.marginLeft="0%"
-        menu.style.marginLeft="-20%"
+        menu.style.marginLeft="-25%"
         shetmenu = 1;
     }   
     else if (shetmenu==1){
