@@ -1211,7 +1211,7 @@ html,body{
   }
 
   .burger-btn{
-    width: 18%;
+    width: 15%;
   }
 
   .menu-icon{
@@ -1229,10 +1229,10 @@ html,body{
     display: block;  
     background-color: rgb(54, 53, 53);
     margin-left: -50%;
-    margin-top: 13%;
+    margin-top: 9%;
     padding-right: 10%;
-    width: 40%;
-    height: 35%;
+    width: 30%;
+    height: 33%;
     font-family: roboto,sans-serif;
     border-radius: 0px 13px 13px 0px;
     transition: .5s;
