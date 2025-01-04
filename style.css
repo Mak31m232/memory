@@ -1070,7 +1070,7 @@ html,body{
 
 @media(max-width:450px){
   .header{
-    height: 11%;
+    height: 15%;
   }
 
   .logo{
@@ -1117,6 +1117,11 @@ html,body{
     width: 5.5%;
   }
 
+  #logo-mobil{
+    width: 18%;
+    margin-top: 2%;
+  }
+
   .menu-mobill{
     position: absolute;
     display: block;  
@@ -1125,7 +1130,7 @@ html,body{
     margin-top: 8%;
     padding-right: 10%;
     width: 30%;
-    height: 30%;
+    height: 33%;
     font-family: roboto,sans-serif;
     border-radius: 0px 13px 13px 0px;
     transition: .5s;
@@ -1194,10 +1199,6 @@ html,body{
     display: none;
   }
 
-  .form{
-    display: none;
-  }
-
   .creation{
     display: none;
   }
@@ -1222,6 +1223,11 @@ html,body{
     display: block;
     height: 10%;
     margin-top: 250%;
+  }
+
+  #logo-mobil{
+    width: 18%;
+    margin-top: 2%;
   }
 
   .menu-mobill{
@@ -1269,7 +1275,7 @@ html,body{
   .add-div{
     width: 60%;
     margin-left: 40%;
-    margin-top: 12%;
+    margin-top: 10%;
   }
 }
 
