@@ -306,11 +306,11 @@ html,body{
   position: absolute;
   font-family: helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
   background-color: rgb(57, 57, 57);
-  width: 15%;
+  width: 14%;
   height: 15%;
-  margin-left: 80.5%;
+  margin-left: 86%;
   margin-top: 4.8%;
-  border-radius: 13px; 
+  border-radius: 13px 0px 0px 13px; 
   font-size: 17.5px;
   display: none;
   animation-name: menu2;
@@ -1070,7 +1070,7 @@ html,body{
 
 @media(max-width:450px){
   .header{
-    height: 10%;
+    height: 11%;
   }
 
   .logo{
@@ -1078,9 +1078,9 @@ html,body{
   }
 
   .memory{
-    margin-left: 10%;
+    margin-left: 13%;
     margin-top: -1.5%;
-    font-size: 35px;
+    font-size: 30px;
   }
 
   .form{
@@ -1111,6 +1111,10 @@ html,body{
     display: block;
     height: 10%;
     margin-top: 220%;
+  }
+
+  .mobill-menu img{
+    width: 5.5%;
   }
 
   .menu-mobill{
@@ -1153,6 +1157,11 @@ html,body{
 
   .story-this{
     display: none;
+  }
+
+  .add-div{
+    width: 50%;
+    margin-left: 50%;
   }
 }
 
