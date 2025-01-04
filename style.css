@@ -60,7 +60,16 @@ html,body{
 }
 
 .logo{
-    width: 65%;
+    width: 33%;
+}
+
+.memory{
+  text-decoration: none;
+  color: rgb(244, 244, 244);
+  margin-left: -6.5%;
+  font-family: roboto,sans-serif;
+  font-weight: bold;
+  font-size: 26px;
 }
 
 .links-logo{
@@ -130,16 +139,139 @@ html,body{
 }
 
 .add-btn{
+  position: absolute;
+  width: 1%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 86.7%;
+}
+
+.add-img{
+  width: 150%;
+}
+
+.notification-btn{
     position: absolute;
     width: 1%;
     background: transparent;
     border: none;
     cursor: pointer;
-    margin-left: 86.7%;
+    margin-left: 83%;
+}
+
+.notification-img{
+    width: 149%;
+}
+
+.add-btn{
+  position: absolute;
+  width: 1%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 86.7%;
 }
 
 .add-img{
-    width: 150%;
+  width: 150%;
+}
+
+.add-btn-mobil{
+  position: absolute;
+  width: 1%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 86.7%;
+}
+
+.add-img-mobil{
+  width: 630%;
+}
+
+.notification-btn-mobil{
+    position: absolute;
+    width: 1%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 78%;
+    display: none;
+}
+
+.notification-img-mobil{
+    width:580%;
+}
+
+.add-btn-mobil{
+  position: absolute;
+  width: 1%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 90%;
+  display: none;
+}
+
+.add-img-mobil{
+  width: 580%;
+}
+
+.btn-cross{
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  margin-left: 90%;
+}
+
+.img-cross{
+  width: 80%;
+}
+
+.selectfile{
+  margin-left: 10%;
+  color: gray;
+  cursor: pointer;
+}
+
+.selectfile-btn{
+  margin-left: 10%;
+  margin-top: 4%;
+  width: 80%;
+  height: 60%;
+  background: transparent;
+  border: dashed rgb(82, 82, 82);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.choice{
+  background-color: #393939;
+  width: 28%;
+  height: 73%;
+  margin-left: 35%;
+  margin-top: -2%;
+  border-radius: 5px;
+  display: none;
+  z-index: 3;
+}
+
+.input-choice{
+  background: transparent;
+  border: none;
+  color: #f9f8f8;
+  font-size: 15px;
+  margin-top: 5%;
+  margin-left: 10%;
+  width: 80%;
+  outline: none;
+}
+
+.selectfile-btn:hover{
+  background-color:rgb(40, 40, 40);
 }
 
 .btn-sign{
@@ -394,6 +526,16 @@ html,body{
     z-index: 3;
   }
 
+  .shadow-choice{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #292929;
+    opacity: 0.5;
+    display: none;
+    z-index: 3;
+  }
+
   .registration-main {
     position: relative;
     font-family: helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
@@ -620,10 +762,98 @@ html,body{
     width: 30%;
   }
   
+  @media(min-width:1920px){
+    .header{
+      height: 7%;
+    }
+  
+    .acaunt{
+      width: 43px;
+      height: 44px;
+    }
+  
+    .form{
+      margin-left: 5%;
+    }
+  
+    .input{
+      width: 750px;
+      height: 50px;
+    }
+  
+    .menu{
+      width: 15%;
+      height: 50%;
+    }
+  
+    .menu li{
+      padding-top: 3%;
+      font-size: 5%;
+    }
+  
+    .menu-icon{
+      height: 40%;
+    }
+
+    .creation{
+      margin-left: -50%;
+    }
+  
+    .menu-user{
+      height: 32%;
+      width: 12%;
+      margin-left: 88%;
+      margin-top: 4%;
+    }
+  
+    .add-div{
+      width: 15%;
+      height: 13%;
+      margin-top: 4%;
+    }
+  
+    .add-div a{
+      font-size: 25px;
+    }
+  
+    .registration-main{
+      margin-left:30%;
+    }
+  
+    .story-this{
+      margin-left: 52%;
+      margin-top: -5%;
+    }
+  }
+
+  @media(max-width:1500px){
+    .menu{
+      height: 52%;
+      width: 16%;
+    }
+
+    .menu-icon{
+      height: 40%;
+    }
+
+    .creation{
+      margin-left: -55%;
+    }
+
+    .menu-user{
+      width: 16%;
+      margin-left: 84%;
+      height: 40%;
+    }
+
+    .add-div{
+      height: 13%;
+    }
+  }
+  
   @media(max-width:1280px){
     .logo{
-      width: 75%;
-      margin-left: 10%;
+      width: 35%;
     }
   
     .burger-img{
@@ -646,7 +876,7 @@ html,body{
     }
   
     .creation{
-      margin-left: -57%;
+      margin-left: -58%;
     }
   
     .creation img{
@@ -738,8 +968,12 @@ html,body{
   }
 
   .logo{
-    margin-left: 260%;
-    width: 200%;
+    display: none;
+  }
+
+  .memory{
+    margin-left: 15%;
+    font-size: 60px;
   }
 
   .form{
@@ -759,7 +993,7 @@ html,body{
   }
 
   .burger-btn{
-    width: 18%;
+    width: 14%;
   }
 
   .menu-icon{
@@ -773,21 +1007,10 @@ html,body{
   }
 
   .mobil-icon {
-    width: 5.8%;
+    width: 5%;
     padding-left: 9%;
   }
-
-  .btn-setting{
-    position: absolute;
-    display: inline-flex;
-    align-items: center;
-    width: 10%;
-    margin-left: 85%;
-    cursor: pointer;
-    background: transparent;
-    border: none;
-  }
-
+  
   .menu-mobill{
     position: absolute;
     display: block;  
@@ -829,16 +1052,35 @@ html,body{
   .story-this{
     display: none;
   }
+
+  .add-btn-mobil{
+    display: block;
+  }
+
+  .notification-btn-mobil{
+    display: block;
+  }
+
+  .add-div{
+    width: 45%;
+    margin-left: 55%;
+    margin-top: 10%;
+  }
 }
 
 @media(max-width:450px){
   .header{
-    height: 8%;
+    height: 10%;
   }
 
   .logo{
-    margin-left: 240%;
-    width: 270%;
+    display: none;
+  }
+
+  .memory{
+    margin-left: 10%;
+    margin-top: -1.5%;
+    font-size: 35px;
   }
 
   .form{
@@ -871,23 +1113,12 @@ html,body{
     margin-top: 220%;
   }
 
-  .btn-setting{
-    position: absolute;
-    display: inline-flex;
-    align-items: center;
-    width: 10%;
-    margin-left: 85%;
-    cursor: pointer;
-    background: transparent;
-    border: none;
-  }
-
   .menu-mobill{
     position: absolute;
     display: block;  
     background-color: rgb(54, 53, 53);
     margin-left: -50%;
-    margin-top: 13%;
+    margin-top: 9%;
     padding-right: 10%;
     width: 30%;
     height: 30%;
@@ -931,8 +1162,17 @@ html,body{
   }
 
   .logo{
-    margin-left: 220%;
-    width: 270%;
+    display: none;
+  }
+
+  .memory{
+    margin-left: 8%;
+    margin-top: -1.5%;
+    font-size: 30px;
+  }
+
+  .form{
+    display: none;
   }
 
   .form{
@@ -963,17 +1203,6 @@ html,body{
     display: block;
     height: 10%;
     margin-top: 250%;
-  }
-
-  .btn-setting{
-    position: absolute;
-    display: inline-flex;
-    align-items: center;
-    width: 10%;
-    margin-left: 85%;
-    cursor: pointer;
-    background: transparent;
-    border: none;
   }
 
   .menu-mobill{
@@ -1017,6 +1246,12 @@ html,body{
   .story-this{
     display: none;
   }
+
+  .add-div{
+    width: 60%;
+    margin-left: 40%;
+    margin-top: 12%;
+  }
 }
 
 @media(max-width:320px){
@@ -1024,9 +1259,14 @@ html,body{
     height: 7%;
   }
 
-  .logo{
-    margin-left: 210%;
-    width: 270%;
+  .memory{
+    margin-left: 8%;
+    margin-top: -1.5%;
+    font-size: 30px;
+  }
+
+  .form{
+    display: none;
   }
 
   .form{
@@ -1116,5 +1356,9 @@ html,body{
 
   .story-this{
     display: none;
+  }
+
+  .add-div{
+    margin-top: 15%;
   }
 }

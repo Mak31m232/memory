@@ -9,10 +9,11 @@
 </head>
 <body>
     <div id="shadow" class="shadow"></div>
-    <header class="header open">
+    <div id="shadow-choice" class="shadow-choice"></div>
+    <header class="header">
         <button onclick="menu()" class="burger-btn"><img src="иконки/меню.png" alt="" class="burger-img"></button>
         <a class="links-logo" href=""><img class="logo" src="иконки/лого.png" alt=""></a>
-        <a class="unit" href=""></a>
+        <a class="memory" href="">memory</a>
         <form class="form" action="">
             <div class="group">
                 <svg viewBox="0 0 24 24" aria-hidden="true" class="icon">
@@ -27,8 +28,9 @@
             <button onclick="" class="notification-btn"><img class="notification-img" src="иконки/уведомления.png" alt=""></button>
             <button onclick="addDiv()" class="add-btn"><img class="add-img" src="иконки/плюс.png" alt=""></button>
         </div>
+        <button onclick="" class="notification-btn-mobil"><img class="notification-img-mobil" src="иконки/уведомления.png" alt=""></button>
+        <button onclick="addDiv()" class="add-btn-mobil"><img class="add-img-mobil" src="иконки/плюс.png" alt=""></button>
         <button id="acaunt" onclick="menuUser()" class="acaunt"></button>
-        <button class="btn-setting"><img class="img-setting" src="иконки/настройки.png" alt=""></button>
     </header>
     <div id="add-div" class="add-div">
         <a href="" class="a">Добавть видео</a><br>
@@ -141,6 +143,11 @@
                 <li><a class="mobill-menu-links" href=""><img class="mobil-icon" src="иконки/поиск.png" alt=""></a></li>
             <li><a class="mobill-menu-links" href=""><img class="mobil-icon" src="иконки/user.png" alt=""></a></li>
         </ul>
+    </div>
+    <div id="choice" class="choice">
+        <button class="btn-cross"><img class="img-cross" src="иконки/крест.png" alt=""></button>
+        <button class="selectfile-btn"><input class="selectfile" type="file"></button>
+        <input class="input-choice" type="text" placeholder="Напишите описание">
     </div>
 </body>
 </html>
